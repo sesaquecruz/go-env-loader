@@ -50,7 +50,7 @@ Ensure that the corresponding environment variables (e.g. DB_HOST, DB_PORT, etc.
 
 ## Tag Format
 
-The env tag follows the format ``` `env:"<ENV_VAR_NAME>"` ```, where `<ENV_VAR_NAME>` is the name of the environment variable to be loaded into the struct field.
+The `env` tag follows the format ``` `env:"<ENV_VAR_NAME>"` ```, where `<ENV_VAR_NAME>` is the name of the environment variable to be loaded into the struct field.
 
 ## Error Handling
 
