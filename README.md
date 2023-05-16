@@ -15,7 +15,7 @@ go get github.com/sesaquecruz/go-env-loader
 1. Import the env package into your Go file:
 
 ```
-import "github.com/sesaquecruz/go-env-loader/env"
+import "github.com/sesaquecruz/go-env-loader/pkg/env"
 ```
 
 2. Define a struct with the desired fields and env tags:
