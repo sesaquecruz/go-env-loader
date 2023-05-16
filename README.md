@@ -23,10 +23,10 @@ import "github.com/sesaquecruz/go-env-loader/env"
 ```
 type Config struct {
     DbHost string `env:"DB_HOST"`
-	DbPort int    `env:"DB_PORT"`
-	DbName string `env:"DB_NAME"`
-	DbUser string `env:"DB_USER"`
-	DbPass string `env:"DB_PASS"`
+    DbPort int    `env:"DB_PORT"`
+    DbName string `env:"DB_NAME"`
+    DbUser string `env:"DB_USER"`
+    DbPass string `env:"DB_PASS"`
     // Add more fields as needed
 }
 ```
